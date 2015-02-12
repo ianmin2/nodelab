@@ -1,0 +1,13 @@
+[PLATFORM]
+OS type: linux
+OS version: 3.16.0-30-generic
+OS architecture: x64
+
+[MEMORY]
+Total (Bytes): 6027091968
+Free (Bytes): 935129088
+Free (%): 15.51
+
+[CPUs]
+No. of CPUs: 2
+CPU type: Intel(R) Celeron(R) CPU B820 @ 1.70GHz

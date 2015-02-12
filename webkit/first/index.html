@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>ianmin2@life</title>
+    <script src="jquery.js"></script>
+    <script src="os_specs.js"></script>
+    <script>
+        
+        //get node webkit GUI
+        var gui = require('nw.gui');
+        // get the window object
+        var win = gui.Window.get();
+        var menubar = new gui.Menu({
+            type: 'menubar'
+        });
+        var file = new gui.Menu();
+        file.append(new gui.MenuItem({
+            label: 'Action 1',
+            click: function() {
+                alert('Action 1 Clicked');
+            }
+        }));
+        file.append(new gui.MenuItem({
+            label: 'Action 2',
+            click: function() {
+                alert('Action 2 Clicked');
+            }
+        }));
+        menubar.append(new gui.MenuItem({ label: 'File', submenu: file}));
+        win.menu = menubar;
+        
+        os_specs("sysinfo.txt");
+       
+        
+        /*
+        //Define basic the menu
+        var nw = require('nw.gui');
+        var vm = new nw.Menu({
+            type : 'menubar'
+        });
+        
+        //Assign to the window
+        nw.Window.get().menu = vm;
+        
+        //Define a help menu
+        var hm = new nw.Menu();
+        
+        //Append to window menu
+        vm.append( new nw.MenuItem( {
+            label: 'HELP',
+            submenu : hm 
+        } ));
+        
+        //Add a sub-menu item to the help menu
+        hm.append( new nw.MenuItem({
+            label: 'About',
+            click: function(){
+                alert("Developed By Ian Innocent\n\n mbaeian@gmail.com");
+            }
+        }));
+        */
+        $(function(){
+            var elem = $('<h5>').html('<br/><br/> powered by JQuery! ')
+            $('body').append( elem );
+        });
+       
+    </script>
+</head>
+<body style="text-align: center; padding-top: 50px; text-shadow: 2px 2px 2px white ; color: wheat; background: brown;">
+
+<h1> TEXT SERVED ON THE DOM  VIA THE NODE-WEBKIT RUNTIME!! </h1>
+    <br>
+    <br>
+   <code>
+       <div id="osinfo" style="background-color: white; border-radius: 20%; color: black; padding: 10px; max-width: 80%; margin: 0 auto; font-weight: bold; "></div>
+   </code>
+
+</body>
+</html>

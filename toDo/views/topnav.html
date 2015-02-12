@@ -1,0 +1,44 @@
+ <!-- RESPONSIVE NAVBAR style="background: #0074ed;" --> 
+<div class="navbar navbar-inverse navbar-fixed-top"  role="navigation" >
+        		 <div id="container"> 
+        		 
+        		  	<div class="navbar-header">
+        		  	
+        		  		<!-- COLLAPSIBLE BUTTON  -->
+	        		  		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	        		  			<span class="sr-only"> Toggle navigation</span>
+		        		  		<span class="icon-bar"></span>
+		        		  		<span class="icon-bar"></span>
+		        		  		<span class="icon-bar"></span>
+	        		  		</button>
+        		  		<!-- EO COLLAPSIBLE BUTTON -->
+        		  		
+        		  		<a class="navbar-brand" href="#" style="color: #fff; text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #000, 0px 8px 7px #001135; font: 30px 'ChunkFiveRegular'; ">{{ nav.el.title }}</a>
+        		  
+        		  	</div>
+        		  	
+        		  	<div class="navbar-collapse collapse" style="margin-right: 20px;">
+        		  		<ul class="nav navbar-nav navbar-right" >
+        		  			<li  ng-repeat=" submenu in nav.el.submenus " ><a href="{{ submenu.link }}" style="color: white; text-shadow: 1px 1px 0px gray;">{{ submenu.title }}</a></li>
+        		  			
+        		  			<li  class="dropdown" ng-repeat="dropDown in nav.el.dropdowns">
+        		  			
+	        		  			<a href="{{ dropDown.link }}" class="dropdown-toggle" data-toggle="dropdown" style="color: white; text-shadow: 1px 1px 0px gray;" > 
+	        		  			{{ dropDown.title }}<b class="caret"></b> </a>
+	        		  				
+	      		  				<ul class="dropdown-menu" ng-repeat=" dropDown_item in dropDown.menu_items" >
+	        		  				
+	        		  					<li class="dropdown-header">{{ dropDown_item.header }} </li>
+	        		  					<li ng-repeat=" drop in dropDown_item.items  "> <a href="{{ drop.link }}">{{ drop.title }}</a></li>
+	        		  					
+	        		  			</ul>
+        		  			
+        		  			</li>
+        		  		
+        		  		</ul>
+        		  	</div>
+        		 
+        		 </div>
+        	</div>
+        <!-- EO RESPONSIVE NAVBAR -->
+       

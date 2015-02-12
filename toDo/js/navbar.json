@@ -1,0 +1,50 @@
+{
+
+    "title": "my to~Do",
+
+    "submenus": [
+        {
+            "title": "Home",
+            "link": "#/home"
+            },
+        {
+            "title": "Notes",
+            "link": "#/notes"
+            }
+        ],
+
+    "dropdowns": [
+
+        {
+
+            "title": "Settings",
+
+
+            "link": "#/settings",
+
+
+            "menu_items": [
+
+                {
+
+                    "header": "Account",
+
+
+                    "items": [
+                        {
+                            "title": "email",
+                            "link": "#/settings/email"
+                            },
+                        {
+                            "title": "password",
+                            "link": "#/settings/password"
+                            }
+                        ]
+
+                    }
+
+                ]
+
+            }
+        ]
+}

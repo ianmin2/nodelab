@@ -1,0 +1,25 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "My very first really simple webkit app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+	"window" : {
+		"title" : "Ian Innocent's webkit application",
+		"toolbar" : false,
+		"frame" : true,
+		"width": 850,
+		"height": 500,
+		"position": "center",
+		"icon": "icon.png"
+	},
+
+  "keywords": [
+    "ianmin2",
+    "webkit"
+  ],
+  "author": "Ian Innocent <ianmin2@live.com>",
+  "license": "GNU"
+}
