@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var looper;
+            var degrees = 0;
+            
+            function rotateAnimation(el,speed){
+                
+                var elem = document.getElementById(el);
+                
+                if(navigator.userAgent.match("Chrome")){
+                    
+                    elem.style.WebkitTransform = "rotate("+degrees+"deg)";
+                    
+                } else if(navigator.userAgent.match("Firefox")){
+                    
+                    elem.style.MozTransform = "rotate("+degrees+"deg)";
+                    
+                } else if(navigator.userAgent.match("MSIE")){
+                    
+                    elem.style.msTransform = "rotate("+degrees+"deg)";
+                    
+                } else if(navigator.userAgent.match("Opera")){
+                    
+                    elem.style.OTransform = "rotate("+degrees+"deg)";
+                    
+                } else {
+                    
+                    elem.style.transform = "rotate("+degrees+"deg)";
+                    
+                }
+                
+                looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
+                
+                degrees++;
+                
+                if(degrees > 359){
+                    
+                    degrees = 1;
+                    
+                }
+                
+               // document.getElementById("status").innerHTML = "rotate("+degrees+"deg)";
+                
+                
+            }
+            
+            function foundUser(){
+                
+                clearTimeout( looper );
+                
+            }
+            
+        </script>
+    </head>
+    <body>
+       <br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id="img1" style="margin: 0 auto !important;" src="img/bones_beer2.png" alt="cog1">
+        <script>rotateAnimation("img1",1);</script>
+        <h2 style="width:200px;" id="status"></h2>
+        
+        <br><br><br>
+        <button onclick="javascript:foundUser()">Stop Rotation</button>
+        <button onclick="javascript:rotateAnimation('img1',1)">Start Animation</button>
+    </body>  
+</html>

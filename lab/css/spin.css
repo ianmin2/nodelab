@@ -1,0 +1,1549 @@
+body{
+    background-image: url('../img/black_leather_background_simple_abstract_3d_hd-wallpaper-1902959.jpg') ;
+    
+}
+
+/* Dashed circle */
+.circle-container {
+    position: relative;
+    width: 30em;
+    height: 30em;
+    padding: -20em;
+    /*= 2em * 1.4 (2em = half the width of an img, 1.4 = sqrt(2))*/
+    
+    border: dashed 1px;
+    border-radius: 50%;
+    margin: 4em auto 0;
+}
+
+/* Main Content Circle  */
+.circle-container a {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 10.0em;
+    left: 53%;
+    width: 4em;
+    height: 19em;
+    margin: -3.6em;
+    /*  derived from height / width ie 4em /2 */
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.circle-container div {
+    display: block;
+    margin-top: 10em;
+    width: 400em;
+    
+    color: navy;
+    text-align: right;
+    text-shadow: 7px 1px 7px deepskyblue, 6px 1px 5px pink ;
+    font-size: 2em;
+    font-weight: bold;
+   
+    
+}
+
+
+#obj {
+    height: 24em;
+}
+
+
+.circle-container img {
+    display: block;
+    margin-top: 7em;
+    width: 90%;
+}
+
+.deg0 {
+    transform: translate(18em);
+}
+
+.deg1 {
+    transform: rotate(1deg) translate(18em) rotate(-1deg);
+}
+
+.deg2 {
+    transform: rotate(2deg) translate(18em) rotate(-2deg);
+}
+
+.deg3 {
+    transform: rotate(3deg) translate(18em) rotate(-3deg);
+}
+
+.deg4 {
+    transform: rotate(4deg) translate(18em) rotate(-4deg);
+}
+
+.deg5 {
+    transform: rotate(5deg) translate(18em) rotate(-5deg);
+}
+
+.deg6 {
+    transform: rotate(6deg) translate(18em) rotate(-6deg);
+}
+
+.deg7 {
+    transform: rotate(7deg) translate(18em) rotate(-7deg);
+}
+
+.deg8 {
+    transform: rotate(8deg) translate(18em) rotate(-8deg);
+}
+
+.deg9 {
+    transform: rotate(9deg) translate(18em) rotate(-9deg);
+}
+
+.deg10 {
+    transform: rotate(10deg) translate(18em) rotate(-10deg);
+}
+
+.deg11 {
+    transform: rotate(11deg) translate(18em) rotate(-11deg);
+}
+
+.deg12 {
+    transform: rotate(12deg) translate(18em) rotate(-12deg);
+}
+
+.deg13 {
+    transform: rotate(13deg) translate(18em) rotate(-13deg);
+}
+
+.deg14 {
+    transform: rotate(14deg) translate(18em) rotate(-14deg);
+}
+
+.deg15 {
+    transform: rotate(15deg) translate(18em) rotate(-15deg);
+}
+
+.deg16 {
+    transform: rotate(16deg) translate(18em) rotate(-16deg);
+}
+
+.deg17 {
+    transform: rotate(17deg) translate(18em) rotate(-17deg);
+}
+
+.deg18 {
+    transform: rotate(18deg) translate(18em) rotate(-18deg);
+}
+
+.deg19 {
+    transform: rotate(19deg) translate(18em) rotate(-19deg);
+}
+
+.deg20 {
+    transform: rotate(20deg) translate(18em) rotate(-20deg);
+}
+
+.deg21 {
+    transform: rotate(21deg) translate(18em) rotate(-21deg);
+}
+
+.deg22 {
+    transform: rotate(22deg) translate(18em) rotate(-22deg);
+}
+
+.deg23 {
+    transform: rotate(23deg) translate(18em) rotate(-23deg);
+}
+
+.deg24 {
+    transform: rotate(24deg) translate(18em) rotate(-24deg);
+}
+
+.deg25 {
+    transform: rotate(25deg) translate(18em) rotate(-25deg);
+}
+
+.deg26 {
+    transform: rotate(26deg) translate(18em) rotate(-26deg);
+}
+
+.deg27 {
+    transform: rotate(27deg) translate(18em) rotate(-27deg);
+}
+
+.deg28 {
+    transform: rotate(28deg) translate(18em) rotate(-28deg);
+}
+
+.deg29 {
+    transform: rotate(29deg) translate(18em) rotate(-29deg);
+}
+
+.deg30 {
+    transform: rotate(30deg) translate(18em) rotate(-30deg);
+}
+
+.deg31 {
+    transform: rotate(31deg) translate(18em) rotate(-31deg);
+}
+
+.deg32 {
+    transform: rotate(32deg) translate(18em) rotate(-32deg);
+}
+
+.deg33 {
+    transform: rotate(33deg) translate(18em) rotate(-33deg);
+}
+
+.deg34 {
+    transform: rotate(34deg) translate(18em) rotate(-34deg);
+}
+
+.deg35 {
+    transform: rotate(35deg) translate(18em) rotate(-35deg);
+}
+
+.deg36 {
+    transform: rotate(36deg) translate(18em) rotate(-36deg);
+}
+
+.deg37 {
+    transform: rotate(37deg) translate(18em) rotate(-37deg);
+}
+
+.deg38 {
+    transform: rotate(38deg) translate(18em) rotate(-38deg);
+}
+
+.deg39 {
+    transform: rotate(39deg) translate(18em) rotate(-39deg);
+}
+
+.deg40 {
+    transform: rotate(40deg) translate(18em) rotate(-40deg);
+}
+
+.deg41 {
+    transform: rotate(41deg) translate(18em) rotate(-41deg);
+}
+
+.deg42 {
+    transform: rotate(42deg) translate(18em) rotate(-42deg);
+}
+
+.deg43 {
+    transform: rotate(43deg) translate(18em) rotate(-43deg);
+}
+
+.deg44 {
+    transform: rotate(44deg) translate(18em) rotate(-44deg);
+}
+
+.deg45 {
+    transform: rotate(45deg) translate(18em) rotate(-45deg);
+}
+
+.deg46 {
+    transform: rotate(46deg) translate(18em) rotate(-46deg);
+}
+
+.deg47 {
+    transform: rotate(47deg) translate(18em) rotate(-47deg);
+}
+
+.deg48 {
+    transform: rotate(48deg) translate(18em) rotate(-48deg);
+}
+
+.deg49 {
+    transform: rotate(49deg) translate(18em) rotate(-49deg);
+}
+
+.deg50 {
+    transform: rotate(50deg) translate(18em) rotate(-50deg);
+}
+
+.deg51 {
+    transform: rotate(51deg) translate(18em) rotate(-51deg);
+}
+
+.deg52 {
+    transform: rotate(52deg) translate(18em) rotate(-52deg);
+}
+
+.deg53 {
+    transform: rotate(53deg) translate(18em) rotate(-53deg);
+}
+
+.deg54 {
+    transform: rotate(54deg) translate(18em) rotate(-54deg);
+}
+
+.deg55 {
+    transform: rotate(55deg) translate(18em) rotate(-55deg);
+}
+
+.deg56 {
+    transform: rotate(56deg) translate(18em) rotate(-56deg);
+}
+
+.deg57 {
+    transform: rotate(57deg) translate(18em) rotate(-57deg);
+}
+
+.deg58 {
+    transform: rotate(58deg) translate(18em) rotate(-58deg);
+}
+
+.deg59 {
+    transform: rotate(59deg) translate(18em) rotate(-59deg);
+}
+
+.deg60 {
+    transform: rotate(60deg) translate(18em) rotate(-60deg);
+}
+
+.deg61 {
+    transform: rotate(61deg) translate(18em) rotate(-61deg);
+}
+
+.deg62 {
+    transform: rotate(62deg) translate(18em) rotate(-62deg);
+}
+
+.deg63 {
+    transform: rotate(63deg) translate(18em) rotate(-63deg);
+}
+
+.deg64 {
+    transform: rotate(64deg) translate(18em) rotate(-64deg);
+}
+
+.deg65 {
+    transform: rotate(65deg) translate(18em) rotate(-65deg);
+}
+
+.deg66 {
+    transform: rotate(66deg) translate(18em) rotate(-66deg);
+}
+
+.deg67 {
+    transform: rotate(67deg) translate(18em) rotate(-67deg);
+}
+
+.deg68 {
+    transform: rotate(68deg) translate(18em) rotate(-68deg);
+}
+
+.deg69 {
+    transform: rotate(69deg) translate(18em) rotate(-69deg);
+}
+
+.deg70 {
+    transform: rotate(70deg) translate(18em) rotate(-70deg);
+}
+
+.deg71 {
+    transform: rotate(71deg) translate(18em) rotate(-71deg);
+}
+
+.deg72 {
+    transform: rotate(72deg) translate(18em) rotate(-72deg);
+}
+
+.deg73 {
+    transform: rotate(73deg) translate(18em) rotate(-73deg);
+}
+
+.deg74 {
+    transform: rotate(74deg) translate(18em) rotate(-74deg);
+}
+
+.deg75 {
+    transform: rotate(75deg) translate(18em) rotate(-75deg);
+}
+
+.deg76 {
+    transform: rotate(76deg) translate(18em) rotate(-76deg);
+}
+
+.deg77 {
+    transform: rotate(77deg) translate(18em) rotate(-77deg);
+}
+
+.deg78 {
+    transform: rotate(78deg) translate(18em) rotate(-78deg);
+}
+
+.deg79 {
+    transform: rotate(79deg) translate(18em) rotate(-79deg);
+}
+
+.deg80 {
+    transform: rotate(80deg) translate(18em) rotate(-80deg);
+}
+
+.deg81 {
+    transform: rotate(81deg) translate(18em) rotate(-81deg);
+}
+
+.deg82 {
+    transform: rotate(82deg) translate(18em) rotate(-82deg);
+}
+
+.deg83 {
+    transform: rotate(83deg) translate(18em) rotate(-83deg);
+}
+
+.deg84 {
+    transform: rotate(84deg) translate(18em) rotate(-84deg);
+}
+
+.deg85 {
+    transform: rotate(85deg) translate(18em) rotate(-85deg);
+}
+
+.deg86 {
+    transform: rotate(86deg) translate(18em) rotate(-86deg);
+}
+
+.deg87 {
+    transform: rotate(87deg) translate(18em) rotate(-87deg);
+}
+
+.deg88 {
+    transform: rotate(88deg) translate(18em) rotate(-88deg);
+}
+
+.deg89 {
+    transform: rotate(89deg) translate(18em) rotate(-89deg);
+}
+
+.deg90 {
+    transform: rotate(90deg) translate(18em) rotate(-90deg);
+}
+
+.deg91 {
+    transform: rotate(91deg) translate(18em) rotate(-91deg);
+}
+
+.deg92 {
+    transform: rotate(92deg) translate(18em) rotate(-92deg);
+}
+
+.deg93 {
+    transform: rotate(93deg) translate(18em) rotate(-93deg);
+}
+
+.deg94 {
+    transform: rotate(94deg) translate(18em) rotate(-94deg);
+}
+
+.deg95 {
+    transform: rotate(95deg) translate(18em) rotate(-95deg);
+}
+
+.deg96 {
+    transform: rotate(96deg) translate(18em) rotate(-96deg);
+}
+
+.deg97 {
+    transform: rotate(97deg) translate(18em) rotate(-97deg);
+}
+
+.deg98 {
+    transform: rotate(98deg) translate(18em) rotate(-98deg);
+}
+
+.deg99 {
+    transform: rotate(99deg) translate(18em) rotate(-99deg);
+}
+
+.deg100 {
+    transform: rotate(100deg) translate(18em) rotate(-100deg);
+}
+
+.deg101 {
+    transform: rotate(101deg) translate(18em) rotate(-101deg);
+}
+
+.deg102 {
+    transform: rotate(102deg) translate(18em) rotate(-102deg);
+}
+
+.deg103 {
+    transform: rotate(103deg) translate(18em) rotate(-103deg);
+}
+
+.deg104 {
+    transform: rotate(104deg) translate(18em) rotate(-104deg);
+}
+
+.deg105 {
+    transform: rotate(105deg) translate(18em) rotate(-105deg);
+}
+
+.deg106 {
+    transform: rotate(106deg) translate(18em) rotate(-106deg);
+}
+
+.deg107 {
+    transform: rotate(107deg) translate(18em) rotate(-107deg);
+}
+
+.deg108 {
+    transform: rotate(108deg) translate(18em) rotate(-108deg);
+}
+
+.deg109 {
+    transform: rotate(109deg) translate(18em) rotate(-109deg);
+}
+
+.deg110 {
+    transform: rotate(110deg) translate(18em) rotate(-110deg);
+}
+
+.deg111 {
+    transform: rotate(111deg) translate(18em) rotate(-111deg);
+}
+
+.deg112 {
+    transform: rotate(112deg) translate(18em) rotate(-112deg);
+}
+
+.deg113 {
+    transform: rotate(113deg) translate(18em) rotate(-113deg);
+}
+
+.deg114 {
+    transform: rotate(114deg) translate(18em) rotate(-114deg);
+}
+
+.deg115 {
+    transform: rotate(115deg) translate(18em) rotate(-115deg);
+}
+
+.deg116 {
+    transform: rotate(116deg) translate(18em) rotate(-116deg);
+}
+
+.deg117 {
+    transform: rotate(117deg) translate(18em) rotate(-117deg);
+}
+
+.deg118 {
+    transform: rotate(118deg) translate(18em) rotate(-118deg);
+}
+
+.deg119 {
+    transform: rotate(119deg) translate(18em) rotate(-119deg);
+}
+
+.deg120 {
+    transform: rotate(120deg) translate(18em) rotate(-120deg);
+}
+
+.deg121 {
+    transform: rotate(121deg) translate(18em) rotate(-121deg);
+}
+
+.deg122 {
+    transform: rotate(122deg) translate(18em) rotate(-122deg);
+}
+
+.deg123 {
+    transform: rotate(123deg) translate(18em) rotate(-123deg);
+}
+
+.deg124 {
+    transform: rotate(124deg) translate(18em) rotate(-124deg);
+}
+
+.deg125 {
+    transform: rotate(125deg) translate(18em) rotate(-125deg);
+}
+
+.deg126 {
+    transform: rotate(126deg) translate(18em) rotate(-126deg);
+}
+
+.deg127 {
+    transform: rotate(127deg) translate(18em) rotate(-127deg);
+}
+
+.deg128 {
+    transform: rotate(128deg) translate(18em) rotate(-128deg);
+}
+
+.deg129 {
+    transform: rotate(129deg) translate(18em) rotate(-129deg);
+}
+
+.deg130 {
+    transform: rotate(130deg) translate(18em) rotate(-130deg);
+}
+
+.deg131 {
+    transform: rotate(131deg) translate(18em) rotate(-131deg);
+}
+
+.deg132 {
+    transform: rotate(132deg) translate(18em) rotate(-132deg);
+}
+
+.deg133 {
+    transform: rotate(133deg) translate(18em) rotate(-133deg);
+}
+
+.deg134 {
+    transform: rotate(134deg) translate(18em) rotate(-134deg);
+}
+
+.deg135 {
+    transform: rotate(135deg) translate(18em) rotate(-135deg);
+}
+
+.deg136 {
+    transform: rotate(136deg) translate(18em) rotate(-136deg);
+}
+
+.deg137 {
+    transform: rotate(137deg) translate(18em) rotate(-137deg);
+}
+
+.deg138 {
+    transform: rotate(138deg) translate(18em) rotate(-138deg);
+}
+
+.deg139 {
+    transform: rotate(139deg) translate(18em) rotate(-139deg);
+}
+
+.deg140 {
+    transform: rotate(140deg) translate(18em) rotate(-140deg);
+}
+
+.deg141 {
+    transform: rotate(141deg) translate(18em) rotate(-141deg);
+}
+
+.deg142 {
+    transform: rotate(142deg) translate(18em) rotate(-142deg);
+}
+
+.deg143 {
+    transform: rotate(143deg) translate(18em) rotate(-143deg);
+}
+
+.deg144 {
+    transform: rotate(144deg) translate(18em) rotate(-144deg);
+}
+
+.deg145 {
+    transform: rotate(145deg) translate(18em) rotate(-145deg);
+}
+
+.deg146 {
+    transform: rotate(146deg) translate(18em) rotate(-146deg);
+}
+
+.deg147 {
+    transform: rotate(147deg) translate(18em) rotate(-147deg);
+}
+
+.deg148 {
+    transform: rotate(148deg) translate(18em) rotate(-148deg);
+}
+
+.deg149 {
+    transform: rotate(149deg) translate(18em) rotate(-149deg);
+}
+
+.deg150 {
+    transform: rotate(150deg) translate(18em) rotate(-150deg);
+}
+
+.deg151 {
+    transform: rotate(151deg) translate(18em) rotate(-151deg);
+}
+
+.deg152 {
+    transform: rotate(152deg) translate(18em) rotate(-152deg);
+}
+
+.deg153 {
+    transform: rotate(153deg) translate(18em) rotate(-153deg);
+}
+
+.deg154 {
+    transform: rotate(154deg) translate(18em) rotate(-154deg);
+}
+
+.deg155 {
+    transform: rotate(155deg) translate(18em) rotate(-155deg);
+}
+
+.deg156 {
+    transform: rotate(156deg) translate(18em) rotate(-156deg);
+}
+
+.deg157 {
+    transform: rotate(157deg) translate(18em) rotate(-157deg);
+}
+
+.deg158 {
+    transform: rotate(158deg) translate(18em) rotate(-158deg);
+}
+
+.deg159 {
+    transform: rotate(159deg) translate(18em) rotate(-159deg);
+}
+
+.deg160 {
+    transform: rotate(160deg) translate(18em) rotate(-160deg);
+}
+
+.deg161 {
+    transform: rotate(161deg) translate(18em) rotate(-161deg);
+}
+
+.deg162 {
+    transform: rotate(162deg) translate(18em) rotate(-162deg);
+}
+
+.deg163 {
+    transform: rotate(163deg) translate(18em) rotate(-163deg);
+}
+
+.deg164 {
+    transform: rotate(164deg) translate(18em) rotate(-164deg);
+}
+
+.deg165 {
+    transform: rotate(165deg) translate(18em) rotate(-165deg);
+}
+
+.deg166 {
+    transform: rotate(166deg) translate(18em) rotate(-166deg);
+}
+
+.deg167 {
+    transform: rotate(167deg) translate(18em) rotate(-167deg);
+}
+
+.deg168 {
+    transform: rotate(168deg) translate(18em) rotate(-168deg);
+}
+
+.deg169 {
+    transform: rotate(169deg) translate(18em) rotate(-169deg);
+}
+
+.deg170 {
+    transform: rotate(170deg) translate(18em) rotate(-170deg);
+}
+
+.deg171 {
+    transform: rotate(171deg) translate(18em) rotate(-171deg);
+}
+
+.deg172 {
+    transform: rotate(172deg) translate(18em) rotate(-172deg);
+}
+
+.deg173 {
+    transform: rotate(173deg) translate(18em) rotate(-173deg);
+}
+
+.deg174 {
+    transform: rotate(174deg) translate(18em) rotate(-174deg);
+}
+
+.deg175 {
+    transform: rotate(175deg) translate(18em) rotate(-175deg);
+}
+
+.deg176 {
+    transform: rotate(176deg) translate(18em) rotate(-176deg);
+}
+
+.deg177 {
+    transform: rotate(177deg) translate(18em) rotate(-177deg);
+}
+
+.deg178 {
+    transform: rotate(178deg) translate(18em) rotate(-178deg);
+}
+
+.deg179 {
+    transform: rotate(179deg) translate(18em) rotate(-179deg);
+}
+
+.deg180 {
+    transform: translate(-18em);
+}
+
+.deg181 {
+    transform: rotate(181deg) translate(18em) rotate(-181deg);
+}
+
+.deg182 {
+    transform: rotate(182deg) translate(18em) rotate(-182deg);
+}
+
+.deg183 {
+    transform: rotate(183deg) translate(18em) rotate(-183deg);
+}
+
+.deg184 {
+    transform: rotate(184deg) translate(18em) rotate(-184deg);
+}
+
+.deg185 {
+    transform: rotate(185deg) translate(18em) rotate(-185deg);
+}
+
+.deg186 {
+    transform: rotate(186deg) translate(18em) rotate(-186deg);
+}
+
+.deg187 {
+    transform: rotate(187deg) translate(18em) rotate(-187deg);
+}
+
+.deg188 {
+    transform: rotate(188deg) translate(18em) rotate(-188deg);
+}
+
+.deg189 {
+    transform: rotate(189deg) translate(18em) rotate(-189deg);
+}
+
+.deg190 {
+    transform: rotate(190deg) translate(18em) rotate(-190deg);
+}
+
+.deg191 {
+    transform: rotate(191deg) translate(18em) rotate(-191deg);
+}
+
+.deg192 {
+    transform: rotate(192deg) translate(18em) rotate(-192deg);
+}
+
+.deg193 {
+    transform: rotate(193deg) translate(18em) rotate(-193deg);
+}
+
+.deg194 {
+    transform: rotate(194deg) translate(18em) rotate(-194deg);
+}
+
+.deg195 {
+    transform: rotate(195deg) translate(18em) rotate(-195deg);
+}
+
+.deg196 {
+    transform: rotate(196deg) translate(18em) rotate(-196deg);
+}
+
+.deg197 {
+    transform: rotate(197deg) translate(18em) rotate(-197deg);
+}
+
+.deg198 {
+    transform: rotate(198deg) translate(18em) rotate(-198deg);
+}
+
+.deg199 {
+    transform: rotate(199deg) translate(18em) rotate(-199deg);
+}
+
+.deg200 {
+    transform: rotate(200deg) translate(18em) rotate(-200deg);
+}
+
+.deg201 {
+    transform: rotate(201deg) translate(18em) rotate(-201deg);
+}
+
+.deg202 {
+    transform: rotate(202deg) translate(18em) rotate(-202deg);
+}
+
+.deg203 {
+    transform: rotate(203deg) translate(18em) rotate(-203deg);
+}
+
+.deg204 {
+    transform: rotate(204deg) translate(18em) rotate(-204deg);
+}
+
+.deg205 {
+    transform: rotate(205deg) translate(18em) rotate(-205deg);
+}
+
+.deg206 {
+    transform: rotate(206deg) translate(18em) rotate(-206deg);
+}
+
+.deg207 {
+    transform: rotate(207deg) translate(18em) rotate(-207deg);
+}
+
+.deg208 {
+    transform: rotate(208deg) translate(18em) rotate(-208deg);
+}
+
+.deg209 {
+    transform: rotate(209deg) translate(18em) rotate(-209deg);
+}
+
+.deg210 {
+    transform: rotate(210deg) translate(18em) rotate(-210deg);
+}
+
+.deg211 {
+    transform: rotate(211deg) translate(18em) rotate(-211deg);
+}
+
+.deg212 {
+    transform: rotate(212deg) translate(18em) rotate(-212deg);
+}
+
+.deg213 {
+    transform: rotate(213deg) translate(18em) rotate(-213deg);
+}
+
+.deg214 {
+    transform: rotate(214deg) translate(18em) rotate(-214deg);
+}
+
+.deg215 {
+    transform: rotate(215deg) translate(18em) rotate(-215deg);
+}
+
+.deg216 {
+    transform: rotate(216deg) translate(18em) rotate(-216deg);
+}
+
+.deg217 {
+    transform: rotate(217deg) translate(18em) rotate(-217deg);
+}
+
+.deg218 {
+    transform: rotate(218deg) translate(18em) rotate(-218deg);
+}
+
+.deg219 {
+    transform: rotate(219deg) translate(18em) rotate(-219deg);
+}
+
+.deg220 {
+    transform: rotate(220deg) translate(18em) rotate(-220deg);
+}
+
+.deg221 {
+    transform: rotate(221deg) translate(18em) rotate(-221deg);
+}
+
+.deg222 {
+    transform: rotate(222deg) translate(18em) rotate(-222deg);
+}
+
+.deg223 {
+    transform: rotate(223deg) translate(18em) rotate(-223deg);
+}
+
+.deg224 {
+    transform: rotate(224deg) translate(18em) rotate(-224deg);
+}
+
+.deg225 {
+    transform: rotate(225deg) translate(18em) rotate(-225deg);
+}
+
+.deg226 {
+    transform: rotate(226deg) translate(18em) rotate(-226deg);
+}
+
+.deg227 {
+    transform: rotate(227deg) translate(18em) rotate(-227deg);
+}
+
+.deg228 {
+    transform: rotate(228deg) translate(18em) rotate(-228deg);
+}
+
+.deg229 {
+    transform: rotate(229deg) translate(18em) rotate(-229deg);
+}
+
+.deg230 {
+    transform: rotate(230deg) translate(18em) rotate(-230deg);
+}
+
+.deg231 {
+    transform: rotate(231deg) translate(18em) rotate(-231deg);
+}
+
+.deg232 {
+    transform: rotate(232deg) translate(18em) rotate(-232deg);
+}
+
+.deg233 {
+    transform: rotate(233deg) translate(18em) rotate(-233deg);
+}
+
+.deg234 {
+    transform: rotate(234deg) translate(18em) rotate(-234deg);
+}
+
+.deg235 {
+    transform: rotate(235deg) translate(18em) rotate(-235deg);
+}
+
+.deg236 {
+    transform: rotate(236deg) translate(18em) rotate(-236deg);
+}
+
+.deg237 {
+    transform: rotate(237deg) translate(18em) rotate(-237deg);
+}
+
+.deg238 {
+    transform: rotate(238deg) translate(18em) rotate(-238deg);
+}
+
+.deg239 {
+    transform: rotate(239deg) translate(18em) rotate(-239deg);
+}
+
+.deg240 {
+    transform: rotate(240deg) translate(18em) rotate(-240deg);
+}
+
+.deg241 {
+    transform: rotate(241deg) translate(18em) rotate(-241deg);
+}
+
+.deg242 {
+    transform: rotate(242deg) translate(18em) rotate(-242deg);
+}
+
+.deg243 {
+    transform: rotate(243deg) translate(18em) rotate(-243deg);
+}
+
+.deg244 {
+    transform: rotate(244deg) translate(18em) rotate(-244deg);
+}
+
+.deg245 {
+    transform: rotate(245deg) translate(18em) rotate(-245deg);
+}
+
+.deg246 {
+    transform: rotate(246deg) translate(18em) rotate(-246deg);
+}
+
+.deg247 {
+    transform: rotate(247deg) translate(18em) rotate(-247deg);
+}
+
+.deg248 {
+    transform: rotate(248deg) translate(18em) rotate(-248deg);
+}
+
+.deg249 {
+    transform: rotate(249deg) translate(18em) rotate(-249deg);
+}
+
+.deg250 {
+    transform: rotate(250deg) translate(18em) rotate(-250deg);
+}
+
+.deg251 {
+    transform: rotate(251deg) translate(18em) rotate(-251deg);
+}
+
+.deg252 {
+    transform: rotate(252deg) translate(18em) rotate(-252deg);
+}
+
+.deg253 {
+    transform: rotate(253deg) translate(18em) rotate(-253deg);
+}
+
+.deg254 {
+    transform: rotate(254deg) translate(18em) rotate(-254deg);
+}
+
+.deg255 {
+    transform: rotate(255deg) translate(18em) rotate(-255deg);
+}
+
+.deg256 {
+    transform: rotate(256deg) translate(18em) rotate(-256deg);
+}
+
+.deg257 {
+    transform: rotate(257deg) translate(18em) rotate(-257deg);
+}
+
+.deg258 {
+    transform: rotate(258deg) translate(18em) rotate(-258deg);
+}
+
+.deg259 {
+    transform: rotate(259deg) translate(18em) rotate(-259deg);
+}
+
+.deg260 {
+    transform: rotate(260deg) translate(18em) rotate(-260deg);
+}
+
+.deg261 {
+    transform: rotate(261deg) translate(18em) rotate(-261deg);
+}
+
+.deg262 {
+    transform: rotate(262deg) translate(18em) rotate(-262deg);
+}
+
+.deg263 {
+    transform: rotate(263deg) translate(18em) rotate(-263deg);
+}
+
+.deg264 {
+    transform: rotate(264deg) translate(18em) rotate(-264deg);
+}
+
+.deg265 {
+    transform: rotate(265deg) translate(18em) rotate(-265deg);
+}
+
+.deg266 {
+    transform: rotate(266deg) translate(18em) rotate(-266deg);
+}
+
+.deg267 {
+    transform: rotate(267deg) translate(18em) rotate(-267deg);
+}
+
+.deg268 {
+    transform: rotate(268deg) translate(18em) rotate(-268deg);
+}
+
+.deg269 {
+    transform: rotate(269deg) translate(18em) rotate(-269deg);
+}
+
+.deg270 {
+    transform: rotate(270deg) translate(18em) rotate(-270deg);
+}
+
+.deg271 {
+    transform: rotate(271deg) translate(18em) rotate(-271deg);
+}
+
+.deg272 {
+    transform: rotate(272deg) translate(18em) rotate(-272deg);
+}
+
+.deg273 {
+    transform: rotate(273deg) translate(18em) rotate(-273deg);
+}
+
+.deg274 {
+    transform: rotate(274deg) translate(18em) rotate(-274deg);
+}
+
+.deg275 {
+    transform: rotate(275deg) translate(18em) rotate(-275deg);
+}
+
+.deg276 {
+    transform: rotate(276deg) translate(18em) rotate(-276deg);
+}
+
+.deg277 {
+    transform: rotate(277deg) translate(18em) rotate(-277deg);
+}
+
+.deg278 {
+    transform: rotate(278deg) translate(18em) rotate(-278deg);
+}
+
+.deg279 {
+    transform: rotate(279deg) translate(18em) rotate(-279deg);
+}
+
+.deg280 {
+    transform: rotate(280deg) translate(18em) rotate(-280deg);
+}
+
+.deg281 {
+    transform: rotate(281deg) translate(18em) rotate(-281deg);
+}
+
+.deg282 {
+    transform: rotate(282deg) translate(18em) rotate(-282deg);
+}
+
+.deg283 {
+    transform: rotate(283deg) translate(18em) rotate(-283deg);
+}
+
+.deg284 {
+    transform: rotate(284deg) translate(18em) rotate(-284deg);
+}
+
+.deg285 {
+    transform: rotate(285deg) translate(18em) rotate(-285deg);
+}
+
+.deg286 {
+    transform: rotate(286deg) translate(18em) rotate(-286deg);
+}
+
+.deg287 {
+    transform: rotate(287deg) translate(18em) rotate(-287deg);
+}
+
+.deg288 {
+    transform: rotate(288deg) translate(18em) rotate(-288deg);
+}
+
+.deg289 {
+    transform: rotate(289deg) translate(18em) rotate(-289deg);
+}
+
+.deg290 {
+    transform: rotate(290deg) translate(18em) rotate(-290deg);
+}
+
+.deg291 {
+    transform: rotate(291deg) translate(18em) rotate(-291deg);
+}
+
+.deg292 {
+    transform: rotate(292deg) translate(18em) rotate(-292deg);
+}
+
+.deg293 {
+    transform: rotate(293deg) translate(18em) rotate(-293deg);
+}
+
+.deg294 {
+    transform: rotate(294deg) translate(18em) rotate(-294deg);
+}
+
+.deg295 {
+    transform: rotate(295deg) translate(18em) rotate(-295deg);
+}
+
+.deg296 {
+    transform: rotate(296deg) translate(18em) rotate(-296deg);
+}
+
+.deg297 {
+    transform: rotate(297deg) translate(18em) rotate(-297deg);
+}
+
+.deg298 {
+    transform: rotate(298deg) translate(18em) rotate(-298deg);
+}
+
+.deg299 {
+    transform: rotate(299deg) translate(18em) rotate(-299deg);
+}
+
+.deg300 {
+    transform: rotate(300deg) translate(18em) rotate(-300deg);
+}
+
+.deg301 {
+    transform: rotate(301deg) translate(18em) rotate(-301deg);
+}
+
+.deg302 {
+    transform: rotate(302deg) translate(18em) rotate(-302deg);
+}
+
+.deg303 {
+    transform: rotate(303deg) translate(18em) rotate(-303deg);
+}
+
+.deg304 {
+    transform: rotate(304deg) translate(18em) rotate(-304deg);
+}
+
+.deg305 {
+    transform: rotate(305deg) translate(18em) rotate(-305deg);
+}
+
+.deg306 {
+    transform: rotate(306deg) translate(18em) rotate(-306deg);
+}
+
+.deg307 {
+    transform: rotate(307deg) translate(18em) rotate(-307deg);
+}
+
+.deg308 {
+    transform: rotate(308deg) translate(18em) rotate(-308deg);
+}
+
+.deg309 {
+    transform: rotate(309deg) translate(18em) rotate(-309deg);
+}
+
+.deg310 {
+    transform: rotate(310deg) translate(18em) rotate(-310deg);
+}
+
+.deg311 {
+    transform: rotate(311deg) translate(18em) rotate(-311deg);
+}
+
+.deg312 {
+    transform: rotate(312deg) translate(18em) rotate(-312deg);
+}
+
+.deg313 {
+    transform: rotate(313deg) translate(18em) rotate(-313deg);
+}
+
+.deg314 {
+    transform: rotate(314deg) translate(18em) rotate(-314deg);
+}
+
+.deg315 {
+    transform: rotate(315deg) translate(18em) rotate(-315deg);
+}
+
+.deg316 {
+    transform: rotate(316deg) translate(18em) rotate(-316deg);
+}
+
+.deg317 {
+    transform: rotate(317deg) translate(18em) rotate(-317deg);
+}
+
+.deg318 {
+    transform: rotate(318deg) translate(18em) rotate(-318deg);
+}
+
+.deg319 {
+    transform: rotate(319deg) translate(18em) rotate(-319deg);
+}
+
+.deg320 {
+    transform: rotate(320deg) translate(18em) rotate(-320deg);
+}
+
+.deg321 {
+    transform: rotate(321deg) translate(18em) rotate(-321deg);
+}
+
+.deg322 {
+    transform: rotate(322deg) translate(18em) rotate(-322deg);
+}
+
+.deg323 {
+    transform: rotate(323deg) translate(18em) rotate(-323deg);
+}
+
+.deg324 {
+    transform: rotate(324deg) translate(18em) rotate(-324deg);
+}
+
+.deg325 {
+    transform: rotate(325deg) translate(18em) rotate(-325deg);
+}
+
+.deg326 {
+    transform: rotate(326deg) translate(18em) rotate(-326deg);
+}
+
+.deg327 {
+    transform: rotate(327deg) translate(18em) rotate(-327deg);
+}
+
+.deg328 {
+    transform: rotate(328deg) translate(18em) rotate(-328deg);
+}
+
+.deg329 {
+    transform: rotate(329deg) translate(18em) rotate(-329deg);
+}
+
+.deg330 {
+    transform: rotate(330deg) translate(18em) rotate(-330deg);
+}
+
+.deg331 {
+    transform: rotate(331deg) translate(18em) rotate(-331deg);
+}
+
+.deg332 {
+    transform: rotate(332deg) translate(18em) rotate(-332deg);
+}
+
+.deg333 {
+    transform: rotate(333deg) translate(18em) rotate(-333deg);
+}
+
+.deg334 {
+    transform: rotate(334deg) translate(18em) rotate(-334deg);
+}
+
+.deg335 {
+    transform: rotate(335deg) translate(18em) rotate(-335deg);
+}
+
+.deg336 {
+    transform: rotate(336deg) translate(18em) rotate(-336deg);
+}
+
+.deg337 {
+    transform: rotate(337deg) translate(18em) rotate(-337deg);
+}
+
+.deg338 {
+    transform: rotate(338deg) translate(18em) rotate(-338deg);
+}
+
+.deg339 {
+    transform: rotate(339deg) translate(18em) rotate(-339deg);
+}
+
+.deg340 {
+    transform: rotate(340deg) translate(18em) rotate(-340deg);
+}
+
+.deg341 {
+    transform: rotate(341deg) translate(18em) rotate(-341deg);
+}
+
+.deg342 {
+    transform: rotate(342deg) translate(18em) rotate(-342deg);
+}
+
+.deg343 {
+    transform: rotate(343deg) translate(18em) rotate(-343deg);
+}
+
+.deg344 {
+    transform: rotate(344deg) translate(18em) rotate(-344deg);
+}
+
+.deg345 {
+    transform: rotate(345deg) translate(18em) rotate(-345deg);
+}
+
+.deg346 {
+    transform: rotate(346deg) translate(18em) rotate(-346deg);
+}
+
+.deg347 {
+    transform: rotate(347deg) translate(18em) rotate(-347deg);
+}
+
+.deg348 {
+    transform: rotate(348deg) translate(18em) rotate(-348deg);
+}
+
+.deg349 {
+    transform: rotate(349deg) translate(18em) rotate(-349deg);
+}
+
+.deg350 {
+    transform: rotate(350deg) translate(18em) rotate(-350deg);
+}
+
+.deg351 {
+    transform: rotate(351deg) translate(18em) rotate(-351deg);
+}
+
+.deg352 {
+    transform: rotate(352deg) translate(18em) rotate(-352deg);
+}
+
+.deg353 {
+    transform: rotate(353deg) translate(18em) rotate(-353deg);
+}
+
+.deg354 {
+    transform: rotate(354deg) translate(18em) rotate(-354deg);
+}
+
+.deg355 {
+    transform: rotate(355deg) translate(18em) rotate(-355deg);
+}
+
+.deg356 {
+    transform: rotate(356deg) translate(18em) rotate(-356deg);
+}
+
+.deg357 {
+    transform: rotate(357deg) translate(18em) rotate(-357deg);
+}
+
+.deg358 {
+    transform: rotate(358deg) translate(18em) rotate(-358deg);
+}
+
+.deg359 {
+    transform: rotate(359deg) translate(18em) rotate(-359deg);
+}
+/* this is just for showing the angle on hover */
+
+.circle-container a:not(.center):before {
+    position: absolute;
+    width: 1em;
+    color: white;
+    opacity: 0;
+    background: rgba(0, 0, 0, .5);
+    font: 1.25em/3.45 Courier, monospace;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-indent: -2em;
+    text-shadow: 0 0 .1em deeppink;
+    transition: .7s;
+    /* only works in Firefox */
+    
+    content: attr(class)'°';
+}
+
+.circle-container:hover:after {
+    opacity: 1;
+}
+
+.circle-container a:not(.center):after {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 .5em .5em white;
+    margin: -2px;
+    background: deeppink;
+    opacity: .3;
+    content: '';
+}
+
+.circle-container:hover a:after {
+    opacity: 1;
+}
+
+.circle-container a:hover:after {
+    opacity: .3;
+}
+
+
+
