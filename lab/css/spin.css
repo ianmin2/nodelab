@@ -12,6 +12,7 @@ body{
     /*= 2em * 1.4 (2em = half the width of an img, 1.4 = sqrt(2))*/
     
     border: dashed 1px;
+    border-color: white;
     border-radius: 50%;
     margin: 4em auto 0;
 }
