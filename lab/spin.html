@@ -1,32 +1,32 @@
 <link rel="stylesheet" href="css/spin.css">
+<link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="js/spin.js"></script>
 <script>
     $(function () {
-
-        rotateAnimation('bottle', 1);
-        rotateAnimation('bottle', 1);
-        rotateAnimation('bottle', 1);
-        rotateAnimation('bottle', 1);
-        rotateAnimation('bottle', 1);
-
         
-        players = JSON.parse( localStorage.getItem("players") );
-        //console.log(players)
+        rotateAnimation('bottle', 1);
+        rotateAnimation('bottle', 1);
+        rotateAnimation('bottle', 1);
+        rotateAnimation('bottle', 1);
+        rotateAnimation('bottle', 1);
         
+
+        players = JSON.parse(localStorage.getItem("players"));
+
         degs = 0;
 
         $content = "";
-        
+
         number_of_players = players.length;
 
-        degrees_per_player = Math.floor( 360 / number_of_players );
+        degrees_per_player = Math.floor(360 / number_of_players);
 
 
 
-        for( player in players ){
+        for (player in players) {
 
-            $content +=  "<a href='#' class='deg"+ degs +"'><img style='border-radius: 50%;' src='img/user.png'>";
+            $content += "<a href='#' class='deg" + degs + "'><img style='border-radius: 50%;' src='img/user.png' onclick=javascript:alert('"+ players[player] +"')>";
 
             degs += degrees_per_player;
 
@@ -36,39 +36,53 @@
 
 
         //Pick  a random user from the players
-      winner =  Math.floor( (Math.random() * ( number_of_players ) ) );
+        winner = Math.floor((Math.random() * (number_of_players)));
 
-        alert( winner + " = " + players[winner] + " at " + ( 360 / number_of_players ) * ( winner )  )
+       // alert(winner + " = " + players[winner] + " at " + (360 / number_of_players) * (winner))
 
-        user_angle = ( 360 / number_of_players ) * ( winner );
+        user_angle = (360 / number_of_players) * (winner);
+
+
+        // transform: rotate(1deg) translate(18em) rotate(-1deg);
+
+        $times = 1;
+        console.log(user_angle)
+
 
         
+        
+        var slowSpin =  setInterval(function () {
+            
+            if (looper) {
+                
+                foundUser(); 
+                
+                $times += 1;
+                
+                if( $times === 5 ){
+                    
+                    $("#bottle").css({ transform: "rotate(" + ( user_angle -90 ) + "deg  )"  });
+                    $()
+                    
+                }
+                
+            }
+            
+        }, 2000);
+        
+        
+
+
+
     });
 </script>
 
 <body onload="  ">
-
+    <button class="btn btn-warning" style="z-index: -10;" onclick="javascript:location.reload()">Spin</button>
+    <responses class="pull-right">Here are the responses</responses>
     <div class='circle-container'>
         <a href='#' class='center' id="bottle"><img id="obj" src='img/bones_beer2_.png'>
         </a>
-        <!--
-        <a href='#' class='deg0'><img style='border-radius: 50%;' src='img/user.png'>
-        </a>
-        <a href='#' class='deg45'><img style="border-radius: 50%;" src='img/user.png'>
-        </a>
-        <a href='#' class='deg90'><img style="border-radius: 50%;" src='img/user.png'>
-        </a>
-        <a href='#' class='deg135'><img style="border-radius: 50%;" src='img/user.png'>
-        </a>
-        <a href='#' class='deg180'><img style="border-radius: 50%;" src='img/user.png'>
-        </a>
-        <a href='#' class='deg225'><img style="border-radius: 50%;" src='img/user.png'>
-        </a>
-        <a href='#' class='deg270'><img style="border-radius: 50%;" src='img/user.png'>
-        </a>
-        <a href='#' class='deg315'><img style="border-radius: 50%;" src='img/user.png'>
-        </a>
-        -->
     </div>
 
 </body>

@@ -47,3 +47,22 @@ function foundUser(){
     clearTimeout( looper );
 
 }
+
+//REAL-TIME TYPING EFFECT GENERATOR
+var gameText = function (target, message, index, interval) {
+
+    $(function () {
+
+        if (index < message.length) {
+
+            $(target).append(message[index++]);
+            setTimeout(function () {
+                gameText(target, message, index, interval);
+            }, interval);
+
+        }
+
+
+    });
+
+}
