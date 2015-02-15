@@ -62,7 +62,8 @@
                 if( $times === 5 ){
                     
                     $("#bottle").css({ transform: "rotate(" + ( user_angle -90 ) + "deg  )"  });
-                    $()
+                    $("responses").html($("<winner>"));
+                    gameText("winner", "The Selected person is " + players[winner] , 0, 70);
                     
                 }
                 
@@ -77,9 +78,9 @@
     });
 </script>
 
-<body onload="  ">
-    <button class="btn btn-warning" style="z-index: -10;" onclick="javascript:location.reload()">Spin</button>
-    <responses class="pull-right">Here are the responses</responses>
+<body style=" color: white; text-shadow: 2px 1px 2px rgba( 0, 99, 0, .9), 4px 2px 4px rgba( 0, 0, 99, .9 ), 8px 4px 8px rgba( 99, 0, 0, .4 ); padding: 2em;">
+    <button class="btn btn-warning" style="z-index: -10; left: 0;" onclick="javascript:location.reload()">Spin</button>
+    <responses class="pull-right"></responses>
     <div class='circle-container'>
         <a href='#' class='center' id="bottle"><img id="obj" src='img/bones_beer2_.png'>
         </a>
